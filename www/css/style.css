@@ -1,7 +1,7 @@
 /**/
 
 html,body {
-  background: skyblue;
+  background: salmon;
   height: 100%;
 }
 
@@ -11,7 +11,11 @@ html,body {
   padding: 10px;
   margin: 5px;
   height: 40%;
-  background: white;
+  background: rgb(193, 224, 236);
+}
+
+#disp1{
+    font-size: x-large;
 }
 
 #btn {
@@ -19,6 +23,6 @@ html,body {
 }
 
 #btn::after {
-  content: "▶";
-  color: red;
+  content: "▷";
+  color: rgb(235, 66, 235);
 }
